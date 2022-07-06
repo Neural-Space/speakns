@@ -1,7 +1,11 @@
 {
   "name": "speakns",
-  "version": "1.0.8",
-  "description": "Integrate NeuralSpace Speech-To-Text apis on contenteditable elements for voice based typing",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Neural-Space/speakns"
+  },
+  "description": "Integrate NeuralSpace Speech-To-Text apis on input/textarea elements for voice based typing",
   "main": "src/index.js",
   "module": "src/index.js",
   "scripts": {

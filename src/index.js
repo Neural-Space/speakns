@@ -141,7 +141,7 @@ class VoiceType {
         this.inputElement.value = currentValue
         const duration = (Date.now() - this.startTime)/1000
         if(data.full){
-            this.currentValue = currentValue
+            this.currentValue = currentValue + " "
         }
         if (this.maxSpeakingDuration == 0 && data.full) {
             this.transcript = "";
@@ -185,7 +185,7 @@ class VoiceType {
         }
         if (!onRecordingStart || !onRecordingStop) {
             console.warn("No callbacks have been specified for start/stop recording states")
-            return false;
+            return true;
         }
         return true;
     }

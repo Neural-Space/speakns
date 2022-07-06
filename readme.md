@@ -16,14 +16,6 @@ Sign in to the [NeuralSpace platform](https://platform.neuralspace.ai/)
 
 You can copy the auth code on the top right corner of the platform
 
-**Screenshot here**
-
-
-
-
-
-
-
 ## Features
 
 - Enable Voice typing on Input/Textarea elements
@@ -41,11 +33,6 @@ With npm
 ```bash
   npm install speakns --save
 ```
-From cdn
-```javascript
-<script src="https://jsdeliver/neuralspace/speakns/dist/bundle.js">
-```
-
 Usage
 
 ```javascript
