@@ -1,0 +1,27 @@
+{
+  "name": "speakns",
+  "version": "1.0.8",
+  "description": "Integrate NeuralSpace Speech-To-Text apis on contenteditable elements for voice based typing",
+  "main": "src/index.js",
+  "module": "src/index.js",
+  "scripts": {
+    "test": "test",
+    "build": "webpack --mode production"
+  },
+  "keywords": [
+    "Speech",
+    "to",
+    "text",
+    "Voice",
+    "typing",
+    "ASR",
+    "STT",
+    "Transcription"
+  ],
+  "author": "Psybro",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
